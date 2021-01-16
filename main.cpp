@@ -29,10 +29,10 @@ int main(int argc, char* argv[])
 
 		if (strcmp(argv[i], "--config") == 0) {
 			if (argc > 2){
-			string d = string(argv[i + 1]);
-			a = d.find('\\');
-			if (a > -1)
-				conf = d;
+				string d = string(argv[i + 1]);
+				a = d.find('\\');
+				if (a > -1)
+					conf = d;
 			}
 		}
 	}
