@@ -14,7 +14,7 @@ int main(int argc, char* argv[])
 	setlocale(0, "");
 
 	//Имя файла конфигурации по умолчанию:
-	string conf = "D:\\консольное\\pass.txt";
+	string conf = "D:\\pass.txt";
 	string conf1;
 	char* text = "";
 	int a, b, c, mast;
